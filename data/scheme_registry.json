@@ -1,0 +1,52 @@
+{
+  "registry_version": "illustrative-0.1",
+  "notice": "ILLUSTRATIVE RECORDS ONLY. This registry does not contain every Indian government scheme. Add new schemes or aliases here; no Python code needs to change.",
+  "min_alias_length": 3,
+  "schemes": [
+    {
+      "scheme_id": "pm_kisan",
+      "canonical_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+      "aliases": {
+        "en": ["PM-KISAN", "PM Kisan", "PM Kisan Samman Nidhi", "Pradhan Mantri Kisan Samman Nidhi", "PMKSN"],
+        "hi": ["प्रधानमंत्री किसान सम्मान निधि", "पीएम किसान सम्मान निधि", "पीएम किसान योजना", "पीएम किसान"],
+        "hinglish": ["PM Kisan Yojana", "Kisan Samman Nidhi", "PM Kisan Samman Nidhi Yojana"]
+      }
+    },
+    {
+      "scheme_id": "ayushman_bharat_pmjay",
+      "canonical_name": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY)",
+      "aliases": {
+        "en": ["Ayushman Bharat", "Ayushman Bharat PM-JAY", "PM-JAY", "PMJAY", "Pradhan Mantri Jan Arogya Yojana"],
+        "hi": ["आयुष्मान भारत", "आयुष्मान भारत योजना", "प्रधानमंत्री जन आरोग्य योजना"],
+        "hinglish": ["Ayushman Bharat Yojana", "PM Jan Arogya Yojana"]
+      }
+    },
+    {
+      "scheme_id": "atal_pension_yojana",
+      "canonical_name": "Atal Pension Yojana",
+      "aliases": {
+        "en": ["Atal Pension Yojana", "Atal Pension Scheme"],
+        "hi": ["अटल पेंशन योजना"],
+        "hinglish": ["Atal Pension Yojna"]
+      }
+    },
+    {
+      "scheme_id": "pm_ujjwala_yojana",
+      "canonical_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+      "aliases": {
+        "en": ["Pradhan Mantri Ujjwala Yojana", "PMUY", "Ujjwala Yojana"],
+        "hi": ["प्रधानमंत्री उज्ज्वला योजना", "उज्ज्वला योजना", "उज्जवला योजना"],
+        "hinglish": ["PM Ujjwala Yojana", "Ujjwala Scheme"]
+      }
+    },
+    {
+      "scheme_id": "pm_awas_yojana",
+      "canonical_name": "Pradhan Mantri Awas Yojana (PMAY)",
+      "aliases": {
+        "en": ["Pradhan Mantri Awas Yojana", "PMAY", "PM Awas Yojana"],
+        "hi": ["प्रधानमंत्री आवास योजना", "पीएम आवास योजना"],
+        "hinglish": ["PM Awas", "Pradhan Mantri Awas Yojna"]
+      }
+    }
+  ]
+}

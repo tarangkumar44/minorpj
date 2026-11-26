@@ -1,0 +1,40 @@
+{
+  "reference_version": "illustrative-0.1",
+  "notice": "ILLUSTRATIVE PLACEHOLDER RECORDS. 'verified' is false for every record: replace/extend this file with data collected from official notifications (with source name, URL and date) before relying on any comparison result.",
+  "records": [
+    {
+      "scheme_id": "pm_kisan",
+      "verified": false,
+      "source": {"name": "Illustrative placeholder - verify against official notification", "url": null, "published_on": null},
+      "amounts": [
+        {"role": "benefit", "amount": 6000, "currency": "INR", "frequency": "per_year"},
+        {"role": "benefit", "amount": 2000, "currency": "INR", "frequency": "per_instalment"}
+      ],
+      "dates": {"deadline": null, "validity_start": null, "validity_end": null},
+      "age": {"min_age": null, "min_inclusive": null, "max_age": null, "max_inclusive": null},
+      "eligibility": [
+        {"category": "occupation", "values": ["farmer"]}
+      ]
+    },
+    {
+      "scheme_id": "ayushman_bharat_pmjay",
+      "verified": false,
+      "source": {"name": "Illustrative placeholder - verify against official notification", "url": null, "published_on": null},
+      "amounts": [
+        {"role": "benefit", "amount": 500000, "currency": "INR", "frequency": "per_year"}
+      ],
+      "dates": {"deadline": null, "validity_start": null, "validity_end": null},
+      "age": {"min_age": null, "min_inclusive": null, "max_age": null, "max_inclusive": null},
+      "eligibility": []
+    },
+    {
+      "scheme_id": "atal_pension_yojana",
+      "verified": false,
+      "source": {"name": "Illustrative placeholder - verify against official notification", "url": null, "published_on": null},
+      "amounts": [],
+      "dates": {"deadline": null, "validity_start": null, "validity_end": null},
+      "age": {"min_age": 18, "min_inclusive": true, "max_age": 40, "max_inclusive": true},
+      "eligibility": []
+    }
+  ]
+}

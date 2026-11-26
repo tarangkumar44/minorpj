@@ -1,0 +1,22 @@
+[
+  {
+    "claim_id": "claim-001",
+    "text": "PM Kisan ke tahat kisanon ko ₹8,000 per year milenge, apply by 31 March 2026.",
+    "normalized_text": "pm kisan ke tahat kisanon ko 8000 per year milenge apply by 31 march 2026",
+    "language": "hinglish",
+    "entities": [
+      {
+        "type": "SCHEME",
+        "text": "PM Kisan"
+      },
+      {
+        "type": "ORG",
+        "text": "Ministry"
+      }
+    ],
+    "metadata": {
+      "source": "unit-test",
+      "nlp_version": "x"
+    }
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "rules_version": "0.1",
+  "notice": "Keyword lists used by the extractor (English / Hindi / Hinglish). Extend these lists to improve coverage; no Python code needs to change.",
+  "eligibility_categories": {
+    "income": {
+      "income": ["income", "earnings", "आय", "आमदनी", "kamai", "aay", "amdani", "aamdani"]
+    },
+    "occupation": {
+      "farmer": ["farmer", "farmers", "kisan", "kisaan", "cultivator", "किसान", "किसानों", "कृषक", "खेतिहर"],
+      "student": ["student", "students", "छात्र", "छात्रों", "विद्यार्थी", "विद्यार्थियों", "chhatra", "vidyarthi"],
+      "street_vendor": ["street vendor", "street vendors", "रेहड़ी", "पटरी", "फेरीवाले"],
+      "worker": ["unorganised worker", "unorganized worker", "labourer", "laborer", "मजदूर", "श्रमिक", "mazdoor"],
+      "artisan": ["artisan", "artisans", "कारीगर", "शिल्पकार"]
+    },
+    "beneficiary_category": {
+      "women": ["women", "woman", "female", "महिला", "महिलाओं", "mahila", "mahilaon"],
+      "senior_citizen": ["senior citizen", "senior citizens", "elderly", "वरिष्ठ नागरिक", "बुजुर्ग", "buzurg"],
+      "sc_st": ["scheduled caste", "scheduled tribe", "SC/ST", "अनुसूचित जाति", "अनुसूचित जनजाति"],
+      "bpl": ["BPL", "below poverty line", "गरीबी रेखा"],
+      "girl_child": ["girl child", "girl children", "बालिका"],
+      "disabled": ["divyang", "divyangjan", "person with disability", "persons with disabilities", "दिव्यांग", "दिव्यांगजन"],
+      "widow": ["widow", "widows", "विधवा"]
+    },
+    "landholding": {
+      "landholding": ["landholding", "land holding", "landholder", "landholders", "cultivable land", "agricultural land", "land", "जमीन", "ज़मीन", "भूमि", "खेत", "zameen", "bhumi"]
+    },
+    "residence": {
+      "rural": ["rural", "gramin", "ग्रामीण"],
+      "urban": ["urban", "shahri", "शहरी"],
+      "resident": ["resident", "residents", "domicile", "निवासी", "रहने वाले", "nivasi"],
+      "citizen": ["indian citizen", "citizen of india", "भारतीय नागरिक", "bharatiya nagrik"]
+    }
+  },
+  "bound_keywords": {
+    "upper_before": ["below", "under", "less than", "up to", "upto", "not more than", "not exceeding", "maximum", "within", "lower than"],
+    "lower_before": ["above", "over", "more than", "at least", "minimum", "exceeding", "greater than"],
+    "upper_after": ["से कम", "se kam", "तक", "or less", "or below", "and below"],
+    "lower_after": ["से अधिक", "से ज्यादा", "se zyada", "se adhik", "se upar", "से ऊपर", "or more", "or above", "and above"]
+  },
+  "amount_role_keywords": {
+    "income": ["income", "earning", "earnings", "आय", "आमदनी", "kamai", "aay", "amdani", "aamdani"],
+    "benefit": ["benefit", "benefits", "assistance", "provide", "provides", "provided", "providing", "receive", "receives", "receiving", "get", "gets", "financial", "support", "grant", "pension", "scholarship", "stipend", "subsidy", "cover", "coverage", "insurance", "payable", "incentive", "सहायता", "मिलेंगे", "मिलेगा", "मिलता", "मिलते", "प्रदान", "राशि", "लाभ", "मदद", "पेंशन", "छात्रवृत्ति", "सब्सिडी", "बीमा", "labh", "sahayata", "milega", "milenge", "milta"]
+  },
+  "non_amount_nouns": ["farmers", "farmer", "people", "persons", "beneficiaries", "beneficiary", "students", "women", "families", "family", "households", "hectares", "acres", "villages", "किसान", "किसानों", "लोग", "लोगों", "लाभार्थी", "लाभार्थियों", "छात्र", "छात्रों", "महिलाओं", "परिवार", "परिवारों", "हेक्टेयर", "एकड़", "गांव", "गाँव"],
+  "land_units": {
+    "hectare": ["hectare", "hectares", "हेक्टेयर", "hektare"],
+    "acre": ["acre", "acres", "एकड़", "ekad"],
+    "bigha": ["bigha", "बीघा", "बीघे"]
+  },
+  "duration_words": ["tenure", "period", "validity", "duration", "term", "valid", "loan", "मियाद", "अवधि", "कार्यकाल", "अवधि"]
+}
