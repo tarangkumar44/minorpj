@@ -1,0 +1,177 @@
+[
+  {
+    "schema_version": "1.0",
+    "claim_id": "claim-001",
+    "status": "ok_with_warnings",
+    "language": "hinglish",
+    "text_used": "PM Kisan ke tahat kisanon ko ₹8,000 per year milenge, apply by 31 March 2026.",
+    "processed_text": "PM Kisan ke tahat kisanon ko ₹8,000 per year milenge, apply by 31 March 2026.",
+    "schemes": [
+      {
+        "scheme_id": "pm_kisan",
+        "canonical_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "matched_text": "PM Kisan",
+        "matched_alias": "PM-KISAN",
+        "alias_language": "en",
+        "span": [
+          0,
+          8
+        ],
+        "all_spans": [
+          [
+            0,
+            8
+          ]
+        ],
+        "mentions": 1,
+        "source": "text"
+      }
+    ],
+    "scheme": {
+      "scheme_id": "pm_kisan",
+      "canonical_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+      "matched_text": "PM Kisan",
+      "matched_alias": "PM-KISAN",
+      "alias_language": "en",
+      "span": [
+        0,
+        8
+      ],
+      "all_spans": [
+        [
+          0,
+          8
+        ]
+      ],
+      "mentions": 1,
+      "source": "text"
+    },
+    "unknown_scheme_mentions": [],
+    "entities": {
+      "amounts": [
+        {
+          "type": "amount",
+          "text": "₹8,000",
+          "span": [
+            29,
+            35
+          ],
+          "amount": 8000,
+          "currency": "INR",
+          "currency_explicit": true,
+          "frequency": "per_year",
+          "annual_equivalent": 8000,
+          "instalment_count": null,
+          "role": "benefit",
+          "context": "ke tahat kisanon ko ₹8,000 per year milenge, apply by 31 March 202",
+          "occurrences": 1
+        }
+      ],
+      "dates": [
+        {
+          "type": "date",
+          "iso": "2026-03-31",
+          "precision": "day",
+          "text": "31 March 2026",
+          "span": [
+            63,
+            76
+          ],
+          "role": "deadline",
+          "context": "on ko ₹8,000 per year milenge, apply by 31 March 2026."
+        }
+      ],
+      "validity_periods": [],
+      "age_limits": {
+        "min_age": null,
+        "min_inclusive": null,
+        "max_age": null,
+        "max_inclusive": null,
+        "matches": []
+      },
+      "eligibility": []
+    },
+    "reference_comparison": {
+      "performed": true,
+      "reason": null,
+      "scheme_id": "pm_kisan",
+      "reference_source": "Illustrative placeholder - verify against official notification",
+      "reference_verified": false
+    },
+    "mutations": [
+      {
+        "attribute": "amount",
+        "result": "increased",
+        "mutation_type": "amount_increased",
+        "reason": "claim amount increased compared with reference",
+        "reference_value": 6000,
+        "difference": 2000,
+        "percent_change": 33.33,
+        "confidence": "high",
+        "claim_value": 8000,
+        "claim_text": "₹8,000",
+        "frequency": "per_year",
+        "role": "benefit",
+        "currency": "INR"
+      },
+      {
+        "attribute": "deadline",
+        "result": "incomparable",
+        "mutation_type": null,
+        "reason": "reference record has no deadline",
+        "claim_value": "2026-03-31",
+        "claim_text": "31 March 2026",
+        "reference_value": null
+      }
+    ],
+    "mutation_summary": {
+      "any_change_detected": true,
+      "mutation_types": [
+        "amount_increased"
+      ],
+      "attributes_unchanged": [],
+      "attributes_incomparable": [
+        "deadline"
+      ]
+    },
+    "warnings": [
+      "Unsupported entity type 'ORG' ignored",
+      "Reference record is not marked as verified against an official source"
+    ],
+    "errors": [],
+    "nlp_input": {
+      "claim_id": "claim-001",
+      "text": "PM Kisan ke tahat kisanon ko ₹8,000 per year milenge, apply by 31 March 2026.",
+      "normalized_text": "pm kisan ke tahat kisanon ko 8000 per year milenge apply by 31 march 2026",
+      "language": "hinglish",
+      "entities": [
+        {
+          "type": "SCHEME",
+          "text": "PM Kisan"
+        },
+        {
+          "type": "ORG",
+          "text": "Ministry"
+        }
+      ],
+      "metadata": {
+        "source": "unit-test",
+        "nlp_version": "x"
+      }
+    },
+    "provenance": {
+      "module": "verilens.entity_extraction_rule_mutation",
+      "member": 3,
+      "schema_version": "1.0",
+      "registry_version": "illustrative-0.1",
+      "rules_version": "0.1",
+      "reference_version": "illustrative-0.1",
+      "text_field_used": "text",
+      "processed_at": "2026-11-26T11:28:10.985547+00:00",
+      "input_metadata": {
+        "source": "unit-test",
+        "nlp_version": "x"
+      }
+    }
+  }
+]
